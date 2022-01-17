@@ -1,0 +1,38 @@
+import "Minecraft-lib"
+import "Clicker"
+import:files(config.txt)
+
+//Minecraft client
+
+client(run:Minecarft-lib)
+\\Check client
+client.run(true ifnot
+client:Exitapp
+) 
+
+//auto clicker
+ form Clicker import auto
+  
+  run{auto:left:Keybind2(
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  ) * inf
+  }
+  
+  //brige
+  
+  client(sit:Keybind1(
+   run{auto:left(
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  click.vaule(true ifnot then fix(clicker))
+  ) * inf
+  }
+  ))
