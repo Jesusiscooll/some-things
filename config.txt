@@ -1,0 +1,9 @@
+{
+hu(
+Keybind1=x
+Keybind2=R
+
+
+)
+
+}
