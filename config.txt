@@ -1,7 +1,7 @@
 {
 hu(
 Keybind1=x
-Keybind2=R
+Keybind2=r
 
 
 )
