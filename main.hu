@@ -1,6 +1,23 @@
 import "Minecraft-lib"
 import "Clicker"
+import "gui"
 import:files(config.txt)
+
+
+//Gui
+function mainui=gui.create{
+    gui.tile("NordVPN")
+    gui.text("Hold r to use auto clicker")
+    gui.text("Hold x and sit to use brige")
+    gui.text("Press ctrl + g to Reloads script")
+    gui.text("Press ctrl + p to close")
+    gui.button("OK")
+}
+get(mainui.button {
+button:Getmouse1clicked(text.("Out of date version."))
+button:Getmouse1clicked(text.("Pls try again."))
+button:Getmouse1clicked(text.("Done."))
+})
 
 //Minecraft client
 
