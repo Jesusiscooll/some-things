@@ -1,2 +1,2 @@
 # Minecraft Hack gosht client
-Build with Java and hu(my own coding language)
+Build with hu(my own coding language)
