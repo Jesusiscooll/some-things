@@ -43,7 +43,7 @@ client:Exitapp
   //brige
   
   client(sit:Keybind1(
-   run{auto:left(
+   run{auto:right(
   click.vaule(true ifnot then fix(clicker))
   click.vaule(true ifnot then fix(clicker))
   click.vaule(true ifnot then fix(clicker))
